@@ -11,7 +11,7 @@ import SpriteKit
 class MapScene: SKScene {
     
     override func didMove(to view: SKView) {
-        self.backgroundColor = SKColor.green
+        self.backgroundColor = SKColor.white
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
