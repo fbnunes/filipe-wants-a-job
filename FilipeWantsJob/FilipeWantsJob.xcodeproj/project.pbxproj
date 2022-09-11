@@ -17,6 +17,8 @@
 		1227BACB28C877C80047E532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1227BAC928C877C80047E532 /* LaunchScreen.storyboard */; };
 		1227BAD228C87B250047E532 /* MapScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1227BAD128C87B250047E532 /* MapScene.swift */; };
 		1227BAD428C87B410047E532 /* MapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1227BAD328C87B410047E532 /* MapScene.sks */; };
+		123945D428CE1BF500AFCC6F /* CVMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123945D328CE1BF500AFCC6F /* CVMap.xib */; };
+		12917E4F28CE284C00645805 /* CVMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12917E4E28CE284C00645805 /* CVMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		1227BACA28C877C80047E532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1227BAD128C87B250047E532 /* MapScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScene.swift; sourceTree = "<group>"; };
 		1227BAD328C87B410047E532 /* MapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapScene.sks; sourceTree = "<group>"; };
+		123945D328CE1BF500AFCC6F /* CVMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVMap.xib; sourceTree = "<group>"; };
+		12917E4E28CE284C00645805 /* CVMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +68,17 @@
 			isa = PBXGroup;
 			children = (
 				1227BABA28C877C60047E532 /* AppDelegate.swift */,
+				1227BAC028C877C60047E532 /* GameScene.swift */,
 				1227BABC28C877C60047E532 /* GameScene.sks */,
 				1227BABE28C877C60047E532 /* Actions.sks */,
-				1227BAC028C877C60047E532 /* GameScene.swift */,
 				1227BAD128C87B250047E532 /* MapScene.swift */,
 				1227BAD328C87B410047E532 /* MapScene.sks */,
 				1227BAC228C877C60047E532 /* GameViewController.swift */,
 				1227BAC428C877C60047E532 /* Main.storyboard */,
 				1227BAC728C877C80047E532 /* Assets.xcassets */,
 				1227BAC928C877C80047E532 /* LaunchScreen.storyboard */,
+				12917E4E28CE284C00645805 /* CVMapView.swift */,
+				123945D328CE1BF500AFCC6F /* CVMap.xib */,
 			);
 			path = FilipeWantsJob;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 				1227BAC828C877C80047E532 /* Assets.xcassets in Resources */,
 				1227BACB28C877C80047E532 /* LaunchScreen.storyboard in Resources */,
 				1227BABF28C877C60047E532 /* Actions.sks in Resources */,
+				123945D428CE1BF500AFCC6F /* CVMap.xib in Resources */,
 				1227BAD428C87B410047E532 /* MapScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12917E4F28CE284C00645805 /* CVMapView.swift in Sources */,
 				1227BAC128C877C60047E532 /* GameScene.swift in Sources */,
 				1227BAD228C87B250047E532 /* MapScene.swift in Sources */,
 				1227BAC328C877C60047E532 /* GameViewController.swift in Sources */,
