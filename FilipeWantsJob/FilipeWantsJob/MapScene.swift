@@ -32,6 +32,7 @@ class MapScene: SKScene {
     
     override func didMove(to view: SKView) {
         self.backgroundColor = SKColor.white
+        print("got to mapScene")
         
 //        self.label = self.childNode(withName: "//awardBtn") as? SKLabelNode
 //        self.label = self.childNode(withName: "//educationBtn") as? SKLabelNode
@@ -80,6 +81,9 @@ class MapScene: SKScene {
             
             if (node.name == "experienceBtn") {
                 print("experience was clicked")
+                let sceneOne = ExperienceScene(fileNamed: "ExperienceScene")
+                sceneOne?.scaleMode = .aspectFill
+                self.view?.presentScene(sceneOne!, transition: SKTransition.fade(withDuration: 0.5))
                 
             }
             
@@ -129,8 +133,8 @@ class MapScene: SKScene {
             }
             
           }
-        let sceneOne = GameScene(fileNamed: "GameScene")
-        sceneOne?.scaleMode = .aspectFill
-        self.view?.presentScene(sceneOne!, transition: SKTransition.fade(withDuration: 0.5))
+//        let sceneOne = GameScene(fileNamed: "GameScene")
+//        sceneOne?.scaleMode = .aspectFill
+//        self.view?.presentScene(sceneOne!, transition: SKTransition.fade(withDuration: 0.5))
     }
 }
