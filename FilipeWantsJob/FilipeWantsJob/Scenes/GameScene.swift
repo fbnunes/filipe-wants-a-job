@@ -65,7 +65,6 @@ class GameScene: SKScene {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 
         let sceneTwo = MapScene(fileNamed: "MapScene")
-//        sceneTwo?.scaleMode = .aspectFit
         sceneTwo?.scaleMode = .aspectFill
         self.view?.presentScene(sceneTwo!, transition: SKTransition.fade(withDuration: 0.5))
         
