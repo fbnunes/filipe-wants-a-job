@@ -27,6 +27,7 @@
 		1227BAD428C87B410047E532 /* MapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1227BAD328C87B410047E532 /* MapScene.sks */; };
 		1272715528CF6F8500139D76 /* ExperienceScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1272715428CF6F8500139D76 /* ExperienceScene.sks */; };
 		1272715728CF6FB300139D76 /* ExperienceScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1272715628CF6FB300139D76 /* ExperienceScene.swift */; };
+		127CCEF528D77FF800A7F4A8 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127CCEF428D77FF800A7F4A8 /* MyUtils.swift */; };
 		12917E5428CF66E600645805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12917E5228CF66E600645805 /* Main.storyboard */; };
 		12917E5A28CF67DE00645805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12917E5928CF67DE00645805 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		1227BAD328C87B410047E532 /* MapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapScene.sks; sourceTree = "<group>"; };
 		1272715428CF6F8500139D76 /* ExperienceScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExperienceScene.sks; sourceTree = "<group>"; };
 		1272715628CF6FB300139D76 /* ExperienceScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceScene.swift; sourceTree = "<group>"; };
+		127CCEF428D77FF800A7F4A8 /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
 		12917E5328CF66E600645805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12917E5928CF67DE00645805 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				1227BAC728C877C80047E532 /* Assets.xcassets */,
 				12917E5228CF66E600645805 /* Main.storyboard */,
 				1272715828D069C700139D76 /* Scenes */,
+				127CCEF428D77FF800A7F4A8 /* MyUtils.swift */,
 			);
 			path = FilipeWantsJob;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1227BAC128C877C60047E532 /* GameScene.swift in Sources */,
+				127CCEF528D77FF800A7F4A8 /* MyUtils.swift in Sources */,
 				1227BAD228C87B250047E532 /* MapScene.swift in Sources */,
 				120FE73528D072B900404011 /* LinksScene.swift in Sources */,
 				1227BAC328C877C60047E532 /* GameViewController.swift in Sources */,
@@ -365,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.FilipeWantsJob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -393,7 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.FilipeWantsJob;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
